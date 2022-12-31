@@ -1,0 +1,8 @@
+<h1 class="mb-4">My Followers</h1>
+<div *ngFor="let follower of followers" class="d-flex mb-4">
+    <img [src]="follower.avatar_url" width="80px" height="80px" style="border-radius: 100%;" />
+    <div class="d-flex flex-column mt-2" style="margin-left: 6px;">
+        <div style="font-weight: bold;"><a style="text-decoration: none;">{{ follower.login }}</a></div>
+        <a style="text-decoration: none;">{{ follower.html_url }}</a>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+<nav class="d-flex justify-content-center text-center navbar-light mb-4"
+    style="border: 1px solid #ccc; border-radius: 6px;" [style.backgroundColor]="backgroundColor">
+    <div>
+        <ul class="navbar-nav text-center d-flex flex-row" style="gap: 100px;">
+            <li style="width: 100px" class="nav-item">
+                <a routerLinkActive="active current" [routerLinkActiveOptions]="{ exact: true }" class="nav-link"
+                    routerLink="/">Home</a>
+            </li>
+            <li style="width: 100px;" class="nav-item">
+                <a routerLinkActive="active current" class="nav-link" routerLink="/followers">Followers</a>
+            </li>
+        </ul>
+    </div>
+</nav>
