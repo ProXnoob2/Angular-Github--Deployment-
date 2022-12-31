@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy:ghp": "ng build --base-href='https://ProXnoob2.github.io/ng-dep-test/' && ng deploy --base-href=https://ProXnoob2.github.io/ng-dep-test/"
   },
   "private": true,
   "dependencies": {
@@ -33,7 +34,9 @@
     "@types/jasmine": "~4.0.0",
     "@typescript-eslint/eslint-plugin": "^5.47.1",
     "@typescript-eslint/parser": "^5.47.1",
+    "angular-cli-ghpages": "^1.0.5",
     "eslint": "^8.31.0",
+    "gh-pages": "^4.0.0",
     "jasmine-core": "~4.3.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",

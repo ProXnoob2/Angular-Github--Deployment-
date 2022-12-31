@@ -132,6 +132,9 @@
             }
           },
           "defaultConfiguration": "test"
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }

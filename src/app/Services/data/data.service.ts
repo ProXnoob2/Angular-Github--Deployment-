@@ -4,7 +4,7 @@ import { catchError, map } from 'rxjs/operators';
 import { throwError } from 'rxjs';
 import { AppError } from 'src/app/common/errors/app-error';
 import { NotFoundError } from 'src/app/common/errors/not-found-error';
-import { BadRequestError } from "src/app/common/errors/bad-request-error";
+import { BadRequestError } from 'src/app/common/errors/bad-request-error';
 
 @Injectable({
   providedIn: 'root'
