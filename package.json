@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy:ghp": "ng build --base-href='https://ProXnoob2.github.io/ng-dep-test/' && ng deploy --base-href=https://ProXnoob2.github.io/ng-dep-test/"
+    "deploy:ghp": "ng build --base-href='https://ProXnoob2.github.io/ng-dep-test/' && ng deploy --base-href=https://ProXnoob2.github.io/ng-dep-test/",
+    "deploy:firebase": "ng build && firebase deploy"
   },
   "private": true,
   "dependencies": {
@@ -23,6 +24,7 @@
     "@angular/router": "^14.2.0",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.3",
+    "firebase": "^9.15.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
